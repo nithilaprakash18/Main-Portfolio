@@ -181,7 +181,7 @@ a,button,[data-cv],.fr,.rw{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://w
 @media(prefers-reduced-motion:reduce){.stp>*{opacity:1!important;transform:none!important}.fr{transform:none!important}}
 
 /* ---- v5 ---- */
-#hn{line-height:1.04}
+#hn{line-height:1.04;font-size:clamp(40px,15.8vw,260px);letter-spacing:-.035em;white-space:nowrap;max-width:100%}
 @property --ar{syntax:'<number>';inherits:true;initial-value:1.7778}
 .sf{--ar:1.7778;width:min(100%,calc((100vh - 200px)*var(--ar)));height:auto;aspect-ratio:var(--ar);background:#101a42;transition:--ar .5s cubic-bezier(.2,.8,.2,1),transform .25s ease-out}
 .sf img,.sf video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;filter:blur(10px);transition:opacity .5s,filter .7s}
