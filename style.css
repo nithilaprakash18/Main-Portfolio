@@ -254,3 +254,22 @@ main{min-height:100vh;min-height:100svh}
 img{max-width:100%}
 @media(max-width:820px){.lab{padding-block:26px}.mq div{font-size:20px}}
 @media(hover:none){*{cursor:auto}a,button{cursor:pointer}}
+
+/* Home hero name: deliberate two-line lockup */
+#hn{
+  width:auto;
+  max-width:100%;
+  font-size:clamp(64px,16vw,300px);
+  line-height:.9;
+  letter-spacing:-.025em;
+  white-space:normal;
+  overflow-wrap:normal;
+}
+#hn .wd{
+  display:block;
+  width:fit-content;
+  max-width:100%;
+}
+.hero>.l{
+  margin-bottom:18px;
+}
