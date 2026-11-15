@@ -255,11 +255,11 @@ img{max-width:100%}
 @media(max-width:820px){.lab{padding-block:26px}.mq div{font-size:20px}}
 @media(hover:none){*{cursor:auto}a,button{cursor:pointer}}
 
-/* Home hero name: deliberate two-line lockup */
+/* Home hero: large two-line name lockup */
 #hn{
   width:auto;
   max-width:100%;
-  font-size:clamp(64px,16vw,300px);
+  font-size:clamp(64px,23vw,360px);
   line-height:.9;
   letter-spacing:-.025em;
   white-space:normal;
@@ -269,7 +269,4 @@ img{max-width:100%}
   display:block;
   width:fit-content;
   max-width:100%;
-}
-.hero>.l{
-  margin-bottom:18px;
 }
